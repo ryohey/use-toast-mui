@@ -1,0 +1,23 @@
+{
+  "name": "use-toast-mui",
+  "version": "0.0.1",
+  "description": "Toast Hooks for mui",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/ryohey/use-toast-mui.git",
+  "author": "ryohey",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "4.8.2"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.10.2",
+    "react": "^18.2.0",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0"
+  }
+}
